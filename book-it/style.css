@@ -1,0 +1,229 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  color: #222222;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #2e7d32;
+  padding: 12px 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 18px;
+  transition: color 0.5s;
+}
+
+.navbar a:hover {
+  color: #81c784;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #a5d6a7;
+}
+
+h1,
+h2 {
+  color: #1b5e20;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #c8e6c9;
+  vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 12px 0;
+  border: 1px solid #81c784;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #1b5e20;
+}
+
+.btn-evil {
+  background-color: #c62828;
+  color: #ffffff;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.btn-red {
+  background-color: #c62828;
+}
+
+.btn-red:hover {
+  background-color: #8e0000;
+}
+
+.card {
+  border: 1px solid #a5d6a7;
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #f1f8e9;
+}
+
+.error {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.success {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.box-small {
+  width: 350px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border: 1px solid #a5d6a7;
+}
+
+.stock-out {
+  color: #c62828;
+  font-weight: bold;
+}
+
+.stock-ok {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.book-thumb {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #a5d6a7;
+}
+.book-big {
+  width: 220px;
+  border: 1px solid #a5d6a7;
+  float: right;
+  margin: 0 0 15px 20px;
+}
+.no-image {
+  color: #888888;
+  font-size: 12px;
+}
+
+/*
+    tung-tung-tung sahur
+                                                     &&&&&&&&&&&&&                                  
+                                                   XXX$$&&&&&&&&$$$$X                               
+                                                  +xXX$&&&&&&&&&$$$Xx.                              
+                                                  +X$$&&&&&&&&&&&&$Xx:                              
+                                                  ;+x&&&&+     ..:XXx:                              
+                                                      .X+.   .....+Xx:                              
+                                                 .+;   ;+. .+$&&++.+x;                              
+                                                .; &&. X$. x    &$.:+;                              
+                                                .   x&.&&x;;   .+x+Xx;                              
+                                                .. .+.:&&X&;....;&&&$+                              
+                                               x:...;X+&&XX&&$&&&&&X+:.                             
+                                               +&&&$x:X&&&$;:;;;;:....                              
+                                               ;.... . .  ..;.       .                              
+                                               .x.  ::    .&&&+      .                              
+                                                 :x .+.  ... .:+..   ..                             
+                                                  x..    +$+.:XX;.. ...                             
+                                                  xX..     .x$X+:......                             
+                                                  :&.....;X$X+::::::...                             
+                                                   &:  ........:;;:::..                             
+                                                   Xx      ..:+++;::+..                             
+                                                   ;X   ..:;++++;;:;$X;                             
+                                                  ..x  .:;;;++;;;::.+x+                             
+                                                  ..+  .:;;;;;;::::.:Xx                             
+                                                  . ;  .::;;;;;::::..+X                             
+                                                  . :. .::::;;:::::. .x                             
+                                                  : .: ..::::;;::::..&X:                            
+                                                  .  ...::::;;;::::.;$+                             
+                                                  .. ...:::::::::::.xX;                             
+                                                  +. ....::::::::::.Xx                              
+                                                 x.. ...:::::::::::x$;                              
+                                                 $$......::::::::;XX+.                              
+                                                  .:.....::::::::..;..                              
+                                                  .;.....:::::::..;.                                
+                                                  X;  .......:....                                  
+                                                 $x.           ..                                   
+                                                XX:. ..      ..::.                                  
+                                               XX:.   ::     :;+;:.                                 
+                                             :XX:.    ::.     ;+;..                                 
+                                            .x$:.     +x:     XX+:.                                 
+                                           :XX;.      ....    .....                                 
+                                          X$X;.       . ..    .....                                 
+                                         XXX:.        .....   ..:::                                 
+                                       ;XXx.           ....   ..::.                                 
+                                      xxX+.            ....    ..:.                                 
+                                     xxX+:.            ....    ....                                 
+                                   ;+xx+:.:            ....    .:..                                 
+                                  ;;+x;:.:             .:..    .:..                                 
+                                 :;++;:..              ::..    :::.                                 
+                                :;;;::..              &x;:.    ;;::                                 
+                               ::;:::..            &&&$x;:.   $$X;.                                 
+                              :::::...       ;;X&&&&$X+;::.. .$$Xx;.                                
+                             ..:::...      XX$$X$&$Xx+:...  ;&$$XXXx:                               
+                                          .+xX$XXx;::.     X$XXXXXXXX                               
+                                             .::..       &&X;+x.x.x:+;                              
+                                                         ........  ..                                
+*/
